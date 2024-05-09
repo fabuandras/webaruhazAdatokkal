@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fabu András - Online Webáruház</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+    integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/167a7b748c.js" crossorigin="anonymous"></script>
+  <script type="module" src="main.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main>
+    <!-- class="container-fluid" -->
+    <nav>
+      <h5><a href="index.html" class="oldalcim"><img src="kepek/logo.png" alt="Logo" style="width: 50px"></a><a
+          href="index.html" class="oldalcim">Mercedes-Benz - Webáruház</a></h5>
+      <hr />
+      <ul>
+        <li class="rightborder">
+          <a href="index.html" class="active"><i class="fa fa-home" style="font-size:18px"></i> Kezdőlap</a>
+        </li>
+        <li class="rightborder">
+          <a href="modellek.html"><i class="fa fa-car" style="font-size:18px"></i> Modellek</a>
+        </li>
+        <li><a href="szemelyes-adatok.html"><i class="fa fa-address-book" style="font-size:18px"></i> Személyes
+            adatok</a></li>
+        <li class="float leftborder"><a href="admin.html">Admin <i class="fa-solid fa-lock"
+              style="font-size:18px"></i></a></li>
+        <li class="float">
+          <a href="kosar.html"><i class="fa fa-shopping-basket"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <hr />
+    <header>
+      <h1><i class="fa fa-hashtag text_red" style="font-size: 32px"></i>Üdvözöllek az oldalon!</h1>
+      <hr />
+      <p class="alcim">Válasszon az alábbi <span class="alcim_modell">ÜZEMANYAG-TÍPUSOK</span> közül.</p>
+    </header>
+    <article class="col-md-12 pt-5 pb-5 text-center d-flex justify-content-center">
+      <div class="card border-white border-3 rounded-3 bg-dark" style="width:300px; height: 350px;">
+        <h4 class="card-title text-uppercase fw-bold pt-3 pb-3 text-white">Elektromos</h4>
+        <img class="card-img-top border-top border-bottom border-danger" style="width: 200px; margin: auto;"
+          src="kepek/elektromos.webp" alt="Elektromos">
+        <div class="card-body">
+          <!--<p class="card-text text-uppercase fw-bold text-white">Legnépszerűbb</p>-->
+          <p class="card-text text text-uppercase fw-bold legnepszerubb">Legnépszerűbb</p>
+          <a class="mt-5 btn btn-outline-danger fw-bold rounded-4 text-uppercase" href="#"><i class="fa-solid fa-eye"
+              style="font-size:18px"></i>
+            Megnézem</a>
+        </div>
+      </div>
+      <div style="padding-left: 50px;">
+        <div class="card border-danger border-3 rounded-2 bg-dark" style="width:300px; height: 350px;">
+          <h4 class="card-title text-uppercase fw-bold pt-3 pb-3 text-white">Plug-in hybrid</h4>
+          <img class="card-img-top border-top border-bottom border-danger" style="width: 200px; margin: auto;"
+            src="kepek/plug-in_hybrid.webp" alt="Plug-in hybrid">
+          <div class="card-body">
+            <!--<p class="card-text text-uppercase fw-bold text-white">PRÉMIUM</p>-->
+            <p class="card-text text text-uppercase fw-bold premium">Prémium</p>
+            <a class="mt-5 btn btn-outline-light fw-bold rounded-4 text-uppercase" href="#"><i class="fa-solid fa-eye"
+                style="font-size:18px"></i>
+              Megnézem</a>
+          </div>
+        </div>
+      </div>
+    </article>
+    <hr />
+    <footer>
+      <p>
+        Fabu András<br />
+        <a href="https://github.com/fabuandras" style="font-size: 24px" class="a"><i class="fa fa-github"
+            style="font-size: 24px"></i></a>
+        <!--<a href="https://discord.com/channels/@strapex"
+          style="font-size: 24px; padding-left: 15px;" class="a"><i class="fa-brands fa-discord"
+            style="font-size: 24px"></i></a>-->
+      </p>
+    </footer>
+  </main>
+</body>
+
+</html>

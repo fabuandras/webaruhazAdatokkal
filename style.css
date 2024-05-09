@@ -1,0 +1,255 @@
+main {
+  width: 90%;
+  margin: 100px auto;
+  border: 5px solid maroon;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+  border-radius: 20px;
+  background-color: black;
+  /*background-color: lightgray;*/
+  opacity: 0.9;
+}
+
+.urlap {
+  width: 80%;
+  margin: 100px auto;
+  border: 1px solid white;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+body {
+  background-image: url("kepek/hatter-auto.avif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  /*  text-decoration: underline; */
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.alcim {
+  color: lightgray;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.menusav {
+  color: lightgray;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.admin-felulet-keszlet {
+  color: red;
+  font-weight: bold;
+}
+
+h5 {
+  padding-bottom: 0px;
+}
+
+.oldalcim {
+  padding-left: 10px;
+  color: gray;
+}
+
+.text_red {
+  color: red;
+}
+
+.alcim_modell {
+  color: red;
+}
+
+.termekeklink {
+  color: red;
+}
+
+.perjel {
+  color: red;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 20px;
+}
+
+.csillagmezok {
+  color: lightgray;
+}
+
+a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+button {
+  background-color: lightgray;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 15px;
+}
+
+.szuro {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  padding-top: 50px;
+  text-decoration: overline;
+  color: lightgray;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*
+    background-color:brown;
+    */
+}
+
+/*
+nav {
+    padding-bottom: 15px;
+    border-bottom: 1px solid gray;
+}
+*/
+
+li {
+  float: left;
+}
+
+.rightborder {
+  border-right: 1px solid gray;
+}
+
+.leftborder {
+  border-left: 1px solid gray;
+}
+
+li a {
+  /*
+    display: block;
+    */
+  color: lightgray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  color: red;
+  /*
+    padding-top: 10px;
+    padding-bottom: 10px;
+    */
+}
+
+p a:hover:not(.active) {
+  color: red;
+}
+
+h5 a:hover:not(.active) {
+  color: lightgray;
+  /*
+    padding-top: 10px;
+    padding-bottom: 10px;
+    */
+}
+
+.float {
+  float: right;
+}
+
+.active {
+  color: red;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.text {
+  color: lightgray;
+}
+
+.elektromos {
+  border: 1px solid gray;
+  border-radius: 15px;
+  background-color: lightgray;
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.legnepszerubb {
+  border: 1px solid gray;
+  border-radius: 15px;
+  background-color: lightgray;
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 70px;
+  margin-right: 70px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.premium {
+  border: 1px solid gray;
+  border-radius: 15px;
+  background-color: lightgray;
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 90px;
+  margin-right: 90px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+
+
+
+
+nav h5 {
+  display: flex;
+  align-items: center;
+}
+
+/*
+nav li {
+  display: flex;
+  align-items: center;
+}
+*/
