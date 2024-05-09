@@ -162,6 +162,16 @@ li a {
   text-decoration: none;
 }
 
+.termekinformacio {
+  color: white;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.menupontAdmin {
+  color: gray;
+}
+
 li a:hover:not(.active) {
   color: red;
   /*
